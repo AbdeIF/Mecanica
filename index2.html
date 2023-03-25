@@ -8,7 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/af233e75ce.js" crossorigin="anonymous"></script>
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
@@ -48,10 +48,10 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="https://via.placeholder.com/1920x800" alt="First slide">
+        <img class="d-block w-100" src="imgs/Banner01.PNG" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="https://via.placeholder.com/1920x800" alt="Second slide">
+        <img class="d-block w-100" src="imgs/Banner02.PNG" alt="Second slide">
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="https://via.placeholder.com/1920x800" alt="Third slide">
@@ -71,7 +71,7 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <div class="card-body">
-            <h4 class="card-title">Serviços de Mecânica</h4>
+            <h4 class="card-title"><i class="fa-solid fa-screwdriver-wrench icons"></i> Serviços de Mecânica</h4>
             <p class="card-text">Oferecemos uma ampla gama de serviços de mecânica para carros e motos, incluindo reparo
               de motores, troca de óleo, revisões periódicas e muito mais.</p>
           </div>
@@ -80,7 +80,7 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <div class="card-body">
-            <h4 class="card-title">Peças e Acessórios</h4>
+            <h4 class="card-title"><i class="fa-solid fa-gear icons"></i> Peças e Acessórios</h4>
             <p class="card-text">Temos uma grande variedade de peças e acessórios para carros e motos, incluindo pneus,
               baterias, filtros e muito mais.</p>
           </div>
@@ -89,7 +89,7 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <div class="card-body">
-            <h4 class="card-title">Atendimento Personalizado</h4>
+            <h4 class="card-title"><i class="fa-solid fa-headset icons"></i> Atendimento Personalizado</h4>
             <p class="card-text">Nosso atendimento é focado no cliente, com profissionais capacitados para entender suas
               necessidades e oferecer soluções eficientes.</p>
           </div>
@@ -97,12 +97,15 @@
       </div>
     </div>
   </div>
-  <!-- Sobre -->
+
+
+  <!-- ======================================= Sobre ==================================== -->
+  
   <section id="sobre" class="my-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="mb-4">Sobre Nós</h2>
+          <h2 class="mb-4"><i class="fa-solid fa-people-group icons"></i> Sobre Nós</h2>
           <p>Somos uma oficina mecânica com mais de 10 anos de experiência no mercado, localizada em Pedro II, PI. Nosso
             objetivo é oferecer serviços de qualidade e atendimento personalizado para nossos clientes.</p>
           <p>Contamos com uma equipe de profissionais altamente capacitados e equipamentos modernos para garantir um
@@ -120,7 +123,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="mb-4">Entre em Contato</h2>
+          <h2 class="mb-4"><i class="fa-solid fa-envelope icons"></i> Entre em Contato</h2>
           <form action="#" method="POST">
             <div class="form-group">
               <label for="nome">Nome</label>
@@ -137,11 +140,9 @@
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
         </div>
-        <div class="col-md-6">
-          <h2 class="mb-4">Localização</h2>
-          <iframe
-            src="https://www.google.com.br/maps/place/Pedro+II,+PI,+64255-000/@-4.4312711,-41.4730891,14z/data=!3m1!4b1!4m6!3m5!1s0x7939aa9009b7f09:0xe6169cb9f64d3a98!8m2!3d-4.428982!4d-41.457211!16s%2Fm%2F09rsghy"
-            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="col-md-6 local-section">
+          <h2 class="mb-4"><i class="fa-solid fa-location-dot icons"></i> Localização</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.4724766083394!2d-41.45398884127812!3d-4.431601299999979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79391ab1759549f%3A0x43d390a397a5d4c8!2zTGHDqXJjaW8gbW90byBwZcOnYXM!5e0!3m2!1spt-BR!2sbr!4v1679752469670!5m2!1spt-BR!2sbr" width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <p class="mt-3">Telefone: <a href="tel:5512345678">(55) 1234-5678</a></p>
         </div>
       </div>
@@ -152,7 +153,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <p>Desenvolvido por @Abdenaide, @Edberto, @Jociel, @Ruan</p>
+          &copy; Todos os direitos reservados.<br>
+          <p>Desenvolvido por: 
+            <a href="https://github.com/AbdeIF" target="_blank">@Abdenaide</a>, 
+            <a href="https://github.com/edbertonascimento" target="_blank">@Edberto</a>, 
+            <a href="https://github.com/JociS4" target="_blank">@Jociel</a>, 
+            <a href="https://github.com/ruanvcg" target="_blank">@Ruan</a>
+          </p>
         </div>
       </div>
     </div>

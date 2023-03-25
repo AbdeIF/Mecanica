@@ -1,0 +1,67 @@
+/**
+    PALETA GERAL DA APLICAÇÃO ============================================
+*/
+:root{
+    --main-color: #000000;
+    --second-color: #14213D;
+    --tertiary-color: #FCA311;
+    --bg-color1: #FFFFFF;
+    --bg-color2: #E5E5E5;
+}
+
+
+/**
+    ESTILOS GERAIS DA NAV BAR ==============================================
+*/
+
+
+.nav-item{
+    border-radius: 5px;
+    color: var(--bg-color1);
+}
+
+.nav-item:hover{
+    border: 1px;
+    border-color: var(--bg-color1);
+}
+
+.active{
+    background-color: var(--tertiary-color);
+}
+
+
+/**
+    ESTILOS DO CONTEÚDO DA PÁGINA ============================================
+*/
+
+.icons{
+    color: var(--second-color);
+}
+
+.btn-primary{
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+}
+
+.form-control:hover{
+    border-color: var(--tertiary-color);
+}
+.btn-primary:hover{
+    background-color: var(--tertiary-color);
+    border-color: var(--main-color);
+}
+
+
+
+/**
+    ESTILOS DO RODAPÉ ==========================================================
+*/
+
+footer a{
+    color: var(--tertiary-color);
+}
+
+footer a:hover{
+    color: var(--bg-color1);
+}
+
