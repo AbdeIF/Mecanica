@@ -14,10 +14,19 @@
     ESTILOS GERAIS DA NAV BAR ==============================================
 */
 
+.navbar{
+    height: 70px;
+    padding-left: 45px;
+    padding-right: 45px ;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--bg-color1);
+}
 
 .nav-item{
     border-radius: 5px;
-    color: var(--bg-color1);
+    font-size: medium;
 }
 
 .nav-item:hover{
@@ -34,8 +43,16 @@
     ESTILOS DO CONTEÚDO DA PÁGINA ============================================
 */
 
+
 .icons{
     color: var(--second-color);
+}
+.icons-prices{
+    color: var(--tertiary-color);
+}
+
+.text-p{
+    text-align: justify;
 }
 
 .btn-primary{
@@ -52,6 +69,16 @@
 }
 
 
+.img-fluid{
+    width: 100%;
+}
+
+.maps{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 3rem;
+}
 
 /**
     ESTILOS DO RODAPÉ ==========================================================
@@ -64,4 +91,5 @@ footer a{
 footer a:hover{
     color: var(--bg-color1);
 }
+
 
