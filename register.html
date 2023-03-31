@@ -18,43 +18,37 @@
     
 
     <form class="login-form container">
-      <h2 class="text-center form-h2">Realizar Login</h2>
+      <h2 class="text-center form-h2">Registrar-se</h2>
+      
+      <!-- Type Account input -->
+      <div class="form-outline mb-4">
+        <label class="form-label" for="form2Example1">Tipo de conta:</label>
+        <select class="form-select form-select-lg mb-3 form-control" aria-label=".form-select-lg example">
+            <option selected>Nenhum tipo selecionado</option>
+            <option value="1">Cliente</option>
+            <option value="2">Mecânico</option>
+            <option value="3">Gerente</option>
+        </select>
+      </div>
+    
       <!-- Email input -->
       <div class="form-outline mb-4">
-        <label class="form-label" for="form2Example1">Email:</label>
+        <label class="form-label" for="form2Example2">Email:</label>
         <input type="email" id="form2Example1" class="form-control" />
-        
       </div>
     
       <!-- Password input -->
       <div class="form-outline mb-4">
-        <label class="form-label" for="form2Example2">Senha:</label>
+        <label class="form-label" for="form2Example3">Senha:</label>
         <input type="password" id="form2Example2" class="form-control" />
         
       </div>
     
-      <!-- 2 column grid layout for inline styling -->
-      <div class="row mb-4">
-        <div class="col d-flex justify-content-center">
-          <!-- Checkbox -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="form2Example31" />
-            <label class="form-check-label" for="form2Example31"> Lembrar de mim </label>
-          </div>
-        </div>
-    
-        <div class="col">
-          <!-- Simple link -->
-          <a href="#!">Esqueceu sua senha?</a>
-        </div>
-      </div>
-    
       <!-- Submit button -->
-      <a href="pages/inicio.html"><button type="button" class="btn btn-warning btn-block mb-4">Sign in</button></a>
+      <a href="index.html"><button type="button" class="btn btn-warning btn-block mb-4">Registrar</button></a>
     
       <!-- Register buttons -->
       <div class="text-center">
-        <p>Não tem uma conta? <a href="register.html">Registrar-se</a></p>
         <p>ou se registre com:</p>
         <button type="button" class="btn btn-link btn-floating mx-1">
           <i class="fab fa-facebook-f icons"></i>
