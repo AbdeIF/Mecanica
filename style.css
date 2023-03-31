@@ -11,6 +11,21 @@
 
 
 /**
+    ESTILOS LOGIN PAGE && REGISTER PAGE =====================================================
+*/
+
+
+.login-form{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 10rem;
+}
+
+.form-h2{
+    padding-bottom: 1rem;
+}
+
+/**
     ESTILOS GERAIS DA NAV BAR ==============================================
 */
 
@@ -59,12 +74,23 @@
     border-color: var(--tertiary-color);
 }
 
-.form-control:hover{
-    border-color: var(--tertiary-color);
-}
 .btn-primary:hover{
     background-color: var(--tertiary-color);
     border-color: var(--main-color);
+}
+
+.btn-primary:active{
+    background-color: var(--tertiary-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:focus{
+    background-color: var(--tertiary-color);
+    border-color: var(--main-color);
+}
+
+.form-control:hover{
+    border-color: var(--tertiary-color);
 }
 
 
