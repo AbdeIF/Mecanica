@@ -22,3 +22,11 @@ const handleSubmit = (event) => {
   document.querySelector('form').addEventListener('btn btn-primary', handleSubmit);
 
 //   https://docs.google.com/spreadsheets/d/1dH2kpove_SftX23mpgN8kvzdkNUHn7vsC9Zwz8qbyB0/edit?usp=sharing
+
+
+// const myModal = document.getElementById('myModal')
+// const myInput = document.getElementById('myInput')
+
+// myModal.addEventListener('shown.bs.modal', () => {
+//   myInput.focus()
+// })
