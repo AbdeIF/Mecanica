@@ -1,23 +1,26 @@
-!doctype html>
+<!doctype html>
 <html lang="pt-Br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../style.css">
-    
-    <title>P2 Auto Peças - Sua oficina mecânica em Pedro II, PI</title>
-  </head>
-  <body>
-    
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <!-- ============================================== Navbar ================================ -->
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+
+  <title>P2 Auto Peças - Sua oficina mecânica em Pedro II, PI</title>
+</head>
+
+<body>
+
+
+  <!-- ============================================== Navbar ================================ -->
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">P2 Auto Peças</a>
@@ -25,15 +28,15 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbareNav">
+    <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item ">
+        <li class="nav-item active">
           <a class="nav-link" href="../pages/inicio.html">Início</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../pages/servicos.html">Serviços</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
@@ -49,82 +52,90 @@
     </div>
   </nav>
 
-  
-  
+
+
   <!-- ===================g================== PORTFOLIO ===============================-->
   <!-- Page Content -->
-    <div class="container my-5">
+  <div class="container my-5">
 
-      <!-- Page Heading -->
-      <h1 class="font-weight-bold mb-4">Nosso Portfólio</h1>
+    <!-- Page Heading -->
+    <h1 class="portfolio-title font-weight-bold mb-4">Nosso Portfólio</h1>
+    <hr></hr>
 
-      <!-- Blog Post Row -->
-      <div class="row">
+    <!-- Blog Post Row -->
+    <div class="row">
 
-        <!-- Blog Post Column -->
-        <div class="col-lg-8">
+      <!-- Blog Post Column -->
+      <div class="col-lg-8 container">
 
-          <!-- Blog Post -->
-          <div class="card mb-4">
-            <img class="card-img-top" src="../imgs/revisaofreio.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h2 class="card-title">Serviços Feitos</h2>
-              <h5 class="card-title">Revisão dos componentes de freio</h5>
-              <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
-              <i class="card-text">Revisão dos Freios</i><br>
-              <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
-              <i class="card-text">Troca de Óleo</i>
-              <br><br>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-1">
-                Detalhes &rarr;
-              </button>
-            
-            </div>
-            <div class="card-footer text-muted">
-              Publicado em 04 de abril de 2023 por <a href="../pages/inicio.html">P2 Auto Peças</a>
-            </div>
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="../imgs/revisaofreio.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Serviços Feitos</h2>
+            <h5 class="card-title">Revisão dos componentes de freio</h5>
+            <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
+            <i class="card-text">Revisão dos Freios</i><br>
+            <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
+            <i class="card-text">Troca de Óleo</i>
+            <br><br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-1">
+              Detalhes &rarr;
+            </button>
+
           </div>
+          <div class="card-footer text-muted">
+            Publicado em 04 de abril de 2023 por <a href="../pages/inicio.html">P2 Auto Peças</a>
+          </div>
+        </div>
 
-          <!-- Modal1 -->
-          <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Serviços Feitos</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <p class="card-text">
-                    Todos nós sabemos que os freios têm a função de reduzir a velocidade ou parar o veículo, garantindo a segurança do motorista e demais pessoas que trafegam na via. Justamente por isso, manter esses componentes em boas condições é crucial na redução dos riscos de acidentes no trânsito. Portanto, as idas ao mecânico devem ser frequentes.<br>
-                    A troca do óleo lubrificante deve ser feita com frequência. Os prazos variam de acordo com o tipo do óleo, motor e exigências específicas do veículo. Então, é fundamental consultar as orientações do fabricante. Você ainda deve investir em produtos de qualidade, já que o óleo é responsável por garantir a eficiência de todo o sistema automotivo.<br>
-                    Além disso, nosso mecânicos são treinados para trabalhar em qualquer tipo de manutenção necessária.
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
+        <!-- Modal1 -->
+        <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Serviços Feitos</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p class="card-text">
+                  Todos nós sabemos que os freios têm a função de reduzir a velocidade ou parar o veículo, garantindo a
+                  segurança do motorista e demais pessoas que trafegam na via. Justamente por isso, manter esses
+                  componentes em boas condições é crucial na redução dos riscos de acidentes no trânsito. Portanto, as
+                  idas ao mecânico devem ser frequentes.<br>
+                  A troca do óleo lubrificante deve ser feita com frequência. Os prazos variam de acordo com o tipo do
+                  óleo, motor e exigências específicas do veículo. Então, é fundamental consultar as orientações do
+                  fabricante. Você ainda deve investir em produtos de qualidade, já que o óleo é responsável por
+                  garantir a eficiência de todo o sistema automotivo.<br>
+                  Além disso, nosso mecânicos são treinados para trabalhar em qualquer tipo de manutenção necessária.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
               </div>
             </div>
           </div>
+        </div>
 
 
-          <div class="card mb-4">
-            <img class="card-img-top" src="../imgs/reparos.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h2 class="card-title">Serviços Feitos</h2>
-              <h5 class="card-title">Reparos Automotivos</h5>
-              <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
-              <i class="card-text">Serviços de funilaria</i><br>
-              <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
-              <i class="card-text">Reforma nos bancos e estofamentos</i><br>
-              <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
-              <i class="card-text">Consertos dos botões e do painel</i><br>
-              <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
-              <i class="card-text">Substituição das peças, calotas, volante e tapetes</i>
-              <br><br>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
-                Detalhes &rarr;
-              </button>
+        <div class="card mb-4">
+          <img class="card-img-top" src="../imgs/reparos.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Serviços Feitos</h2>
+            <h5 class="card-title">Reparos Automotivos</h5>
+            <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
+            <i class="card-text">Serviços de funilaria</i><br>
+            <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
+            <i class="card-text">Reforma nos bancos e estofamentos</i><br>
+            <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
+            <i class="card-text">Consertos dos botões e do painel</i><br>
+            <i class="fa-solid fa-square-check" style="color: #fca311;"></i>
+            <i class="card-text">Substituição das peças, calotas, volante e tapetes</i>
+            <br><br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
+              Detalhes &rarr;
+            </button>
 
           </div>
           <div class="card-footer text-muted">
@@ -133,7 +144,8 @@
         </div>
 
         <!-- Modal2 -->
-        <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -141,7 +153,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <p class="card-text">A nossa empresa disponibiliza estes tipo de serviços que são essenciais para os carros. Além disso, contamos com uma equipe de extrema habilidade e as melhores peças do mercado.</p>
+                <p class="card-text">A nossa empresa disponibiliza estes tipo de serviços que são essenciais para os
+                  carros. Além disso, contamos com uma equipe de extrema habilidade e as melhores peças do mercado.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">fechar</button>
@@ -151,16 +164,21 @@
         </div>
 
 
-<!-- ============================================ Footer ======================================= -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============================================ Footer ======================================= -->
   <footer class="bg-dark text-light py-3">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
           &copy; Todos os direitos reservados.<br>
-          <p>Desenvolvido por: 
-            <a href="https://github.com/AbdeIF" target="_blank">@Abdenaide</a>, 
-            <a href="https://github.com/edbertonascimento" target="_blank">@Edberto</a>, 
-            <a href="https://github.com/JociS4" target="_blank">@Jociel</a>, 
+          <p>Desenvolvido por:
+            <a href="https://github.com/AbdeIF" target="_blank">@Abdenaide</a>,
+            <a href="https://github.com/edbertonascimento" target="_blank">@Edberto</a>,
+            <a href="https://github.com/JociS4" target="_blank">@Jociel</a>,
             <a href="https://github.com/ruanvcg" target="_blank">@Ruan</a>
           </p>
         </div>
@@ -168,12 +186,20 @@
     </div>
   </footer>
 
-    
-    <!-- Font Awesome -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/af233e75ce.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+  <!-- Font Awesome -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+          crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/af233e75ce.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
+</body>
+
 </html>

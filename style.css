@@ -120,8 +120,14 @@
     padding-bottom: 3rem;
 }
 
-.conteiner{
+.container-servicos{
     text-align: center;
+}
+.my-5{
+    margin-top: 0rem!important;
+}
+.portfolio-title{
+    padding-top: 7rem;
 }
 
 /**
