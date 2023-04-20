@@ -116,7 +116,6 @@
 .img-fluid{
     width: 100%;
 }
-
 .maps{
     width: 100%;
     max-width: 100%;
@@ -127,6 +126,11 @@
 .container-servicos{
     text-align: center;
 }
+
+.card-text{
+  text-align: left;
+}
+
 .my-5{
     margin-top: 0rem!important;
 }
