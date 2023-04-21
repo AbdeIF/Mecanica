@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+P2 Auto Peças
 
-Template Name: Flattern
-Template URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+## Site:
+
+ruanvcg.github.io/Mecanica
