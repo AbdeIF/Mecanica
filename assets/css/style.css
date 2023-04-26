@@ -39,6 +39,14 @@ h6 {
   font-family: "Muli", sans-serif;
 }
 
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* opcional: alinha verticalmente a imagem e o título */
+  justify-content: space-between; /* espaçamento igual entre a imagem e o título */
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
