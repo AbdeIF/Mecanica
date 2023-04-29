@@ -46,7 +46,7 @@
         <ul>
           <li><a href="index.html">Início</a></li>
           <li><a href="services.html">Serviços</a></li>
-          <li><a class="active" href="testimonials.html">Testemunhas</a></li>
+          <li><a class="active" href="testimonials.html">Avaliações</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">Sobre</a></li>
@@ -67,77 +67,50 @@
   <main id="main">
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <section id="cta" class="cta">
       <div class="container">
-        <section id="cta" class="cta">
-          <div class="container">
-    
-            <div class="row">
-              <div class="col-lg-9 text-lg-left">
-                <h3>Feedback de nossas <span>Testemunhas </span> sobre os serviços fornecidos</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-    
-          </div>
-        </section><!-- End Cta Section -->
         <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/ManuelG.png" class="testimonial-img" alt="">
-              <h3>Manuel Gonçalves</h3>
-              <h4>Professor do IFPI</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Serviços MUITO MUITO bons mesmo. Recentemente instalei um motor turbo com eles e cheguei em Teresina em TRINTA SEGUNDOS após aula no Módulo V. Serviços esses que, a priori, indico para todos os meus colegas professores que vêm de fora.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
+          <div class="col-lg-9 text-lg-left">
+            <h3><span>Acompanhamento</span></h3>
+            <p> Faça o acompanhamento do seu serviço aqui</p>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial-item mt-4 mt-lg-0">
-              <img src="assets/img/testimonials/VinDiesel.PNG" class="testimonial-img" alt="">
-              <h3>Vin Diesel</h3>
-              <h4>Piloto</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                E aí, galera! Vin Diesel aqui. Recentemente, tive uma corrida emocionante com um cara chamado Manuel Gonçalves, que é professor e um verdadeiro mestre dos motores! Infelizmente, ele me venceu na pista, mas eu descobri que ele confia plenamente na oficina mecânica onde faz reparos em seu carro. Eu também decidi levar o meu veículo lá, e posso dizer que os serviços são simplesmente incríveis!
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/Suco.PNG" class="testimonial-img" alt="">
-              <h3>Jailson Mendes</h3>
-              <h4>Apreciador de sucos naturais</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Uma vez visitei a oficina, mas o funcionário Bruno não me entregou a peça que eu queria... Um belo suco refrescante de laranja. Fiquei decepcionado. Nota zero.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/Thiago.PNG" class="testimonial-img" alt="">
-              <h3>Thiago Moura</h3>
-              <h4>Professor do IFPI</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Ótimos serviços e atendimento. Só uma sugestão, poderiam fornecer também alguns serviços básicos pra manutenção de bicicletas. 
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Adicionar Código</button>
           </div>
         </div>
-
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Cta Section -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Adicionar Código</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="code" class="col-form-label">Código:</label>
+                <input type="text" class="form-control" id="code">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Pesquisar</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Modal -->
+
+  </div>
+</section><!-- End Testimonials Section -->
+
+       
 
   </main><!-- End #main -->
 

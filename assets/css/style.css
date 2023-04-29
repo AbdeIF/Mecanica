@@ -80,6 +80,40 @@ h6 {
   opacity: 1;
 }
 
+/* Define o estilo padrão para o botão */
+.btn-outline-secondary {
+  background-color: white;
+  color: rgb(245, 189, 6);
+  padding: 10px 20px;
+  border: 2px solid rgb(245, 189, 6);
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Define o estilo para o efeito hover do botão */
+.btn-outline-secondary:hover {
+  background-color: rgb(247, 194, 23);
+  color: white;
+  border: 2px solid rgb(247, 194, 23);
+}
+
+/* define o estilo do modal do pronpt do código */
+.btn-primary{
+  background-color: white;
+  color: rgb(245, 189, 6);
+  padding: 10px 20px;
+  border: 2px solid rgb(245, 189, 6);
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: rgb(247, 194, 23);
+  color: white;
+  border: 2px solid rgb(247, 194, 23);
+}
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
@@ -647,7 +681,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #f3f1f0;
+  /* background: #f3f1f0; */
   padding: 60px 0;
   color: #574741;
 }
