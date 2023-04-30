@@ -115,6 +115,58 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# pagina gerente
+--------------------------------------------------------------*/
+
+/* Estilo do header */
+.nav-link {
+  color: #fff;
+}
+
+/* Estilo do corpo da página */
+body {
+  background-color: #fff;
+  color: #343a40;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343a40;
+}
+
+hr {
+  border-top: 2px solid #343a40;
+}
+
+/* Estilo do accordion */
+.accordion-button {
+  background-color: #161615;
+  color: #fff;
+  border-color: #FFA500;
+}
+
+.accordion-button:hover,
+.accordion-button:focus {
+  background-color: #FFA500;
+  color: #fff;
+  border-color: 2px solid #FFA500;
+}
+
+/* .accordion-button:not(.collapsed)::after {
+  content: "-";
+}
+
+.accordion-button.collapsed::after {
+  content: "+";
+} */
+
+.accordion-body {
+  background-color: #f8f9fa;
+  color: #343a40;
+  border: 1px solid #FFA500;
+}
+
+
+/*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
