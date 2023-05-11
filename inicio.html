@@ -14,6 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -45,17 +46,11 @@
         <ul>
           <li><a class="active" href="inicio.html">Início</a></li>
           <li><a href="services.html">Serviços</a></li>
-          <li><a href="testimonials.html">Avaliações</a></li>
+          <li><a href="testimonials.html">Acompanhar</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">Sobre</a></li>
           <li><a href="contact.html">Contatos</a></li>
-          <li class="dropdown"><a href="#"><span>Área adminstrativa</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="adm/adm-gerente.html">Gerente</a></li>
-              <li><a href="adm/adm-mecanico.html">Mecânico</a></li>
-            </ul>
-          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -137,44 +132,23 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up">
-              <div class="icon"><i class="bi bi-briefcase"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <div class="icon"><i class="bi bi bi-palette-fill"></i></div>
+              <h4 class="title"><a href="">Pinturas de Veículos</a></h4>
+              <p class="description">A pintura de veículos é um serviço essencial para manter a estética e a proteção da lataria do carro.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bi bi-card-checklist"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <div class="icon"><i class="fas fa-charging-station"></i></div>
+              <h4 class="title"><a href="">postos de recarga para veículos elétricos</a></h4>
+              <p class="description">A recarga de carros elétricos é uma maneira ecologicamente correta e econômica de abastecer o veículo.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-bar-chart"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bi bi-gear"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bi bi-wrench-adjustable"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bi bi-battery-charging"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <div class="icon"><i class="bi bi-droplet-fill"></i></div>
+              <h4 class="title"><a href="">troca de óleo</a></h4>
+              <p class="description">A troca de óleo é importante para manter a lubrificação do motor do veículo e prolongar a vida útil do motor.</p>
             </div>
           </div>
         </div>
@@ -189,11 +163,44 @@
         <div class="text-center">
           <h3>Se interessou?</h3>
           <p> Click no Botão abaixo e Faça um orçamento</p>
-          <a class="cta-btn" href="#">Faça já seu orçamento</a>
+          <button class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#orcamento">Faça já seu orçamento</button>
         </div>
 
       </div>
     </section><!-- End Cta Pricing Section -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="orcamento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form>
+            <div class="form-group">
+              <label for="vehicle-make">Marca do Veículo:</label>
+              <input type="text" id="vehicle-make" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="vehicle-model">Modelo do Veículo:</label>
+              <input type="text" id="vehicle-model" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="vehicle-year">Ano do Veículo:</label>
+              <input type="text" id="vehicle-year" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="vehicle-description">Descrição do Problema:</label>
+              <textarea id="vehicle-description" class="form-control" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit">Solicitar Orçamento</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- End Modal -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -203,7 +210,7 @@
     
             <div class="row">
               <div class="col-lg-9 text-lg-left">
-                <h3>Confira nosso<span> Portfolio</span></h3>
+                <h3>Confira um pouco do nosso<span> Portfolio</span></h3>
                 <p> </p>
               </div>
             </div>
@@ -213,10 +220,10 @@
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Tudo</li>
+              <!-- <li data-filter="*" class="filter-active">Tudo</li>
               <li data-filter=".filter-car">Carros</li>
               <li data-filter=".filter-moto">Motos</li>
-              <li data-filter=".filter-dicas">Dicas</li>
+              <li data-filter=".filter-dicas">Dicas</li> -->
             </ul>
           </div>
         </div>
@@ -252,37 +259,6 @@
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-dicas">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Cuidados básicos para prolongar a vida útil do seu veículo: Veja em nosso portfolio as melhores dicas gerais<br> de manutenção preventiva em nossa oficina mecânica!</h4>
-              <p>Dicas</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-car">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Soluções completas para o seu carro: Confira em nosso portfolio os serviços de manutenção preventiva, reparos e diagnóstico eletrônico<br> oferecidos pela nossa oficina mecânica!</h4>
-              <p>Carros</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-moto">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Acelere com confiança: Veja em nosso portfolio os serviços de manutenção preventiva, reparos e customizações disponíveis <br>para motocicletas em nossa oficina mecânica!</h4>
-              <p>Motos</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
         </div>
 
       </div>
